@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>аиб</title>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+	<link href="http://localhost:3333/css/css.css" rel="stylesheet">
+</head>
+<body>
+
+<?php
+
+$echo = dirname( __FILE__ );
+echo "ko" . $echo;
+
+?>
+
+<form action="./scripts/post.php" method="post" >
+	<input type="hidden" name="mode" value="board">
+	<input name="acronim" value="b">
+	<input name="desc" value="random">	
+	<button type="submit">make Board</button>
+</form>
+</body>
+</html>

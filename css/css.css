@@ -1,0 +1,37 @@
+* {border-radius: 5px;
+
+}
+body {background-color: rgb(100,90,90);
+	font-family: Verdana,sans-serif;
+    display:block;  
+    width: 80%;
+    margin: auto;
+}
+textarea {display:block;
+	width: 300px;
+	height: 150px;
+	resize: none;}
+input {display:block;
+	width: 300px;}
+
+form {background-color: rgb(55,55,55);
+	margin: 5px auto;
+	border: 1px solid #333333;
+	padding: 33px 33px 33px 33px;
+	display: table;
+}
+
+input {margin: 5px;}
+textarea {margin: 5px;}
+button {margin: 5px;}
+
+
+.post {margin: 5px;
+	border: 1px solid #333333;
+	background-color: gray;
+	overflow: hidden;
+	display: table;
+	clip: auto;
+}
+.post_over {overflow: hidden;
+	width: 100%;}
