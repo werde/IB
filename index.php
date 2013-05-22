@@ -14,7 +14,7 @@
 
 $path = $_SERVER['HTTP_HOST'];
 echo $path;
-
+echo strtotime(date('r'));
 ?>
 
 <form action="./scripts/post.php" method="post" >
@@ -23,5 +23,7 @@ echo $path;
 	<input name="desc" value="random">	
 	<button type="submit">make Board</button>
 </form>
+</ br>
+
 </body>
 </html>
